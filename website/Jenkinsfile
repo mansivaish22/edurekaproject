@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     
-                    def testServer = 'edureka@13.127.0.139'
+                    def testServer = 'edureka@172.31.5.9'
 
                     
                     def ansibleRepo = 'https://github.com/mansivaish22/edurekaproject.git'
