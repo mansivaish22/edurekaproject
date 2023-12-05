@@ -27,7 +27,7 @@ pipeline {
                     def testServer = 'edureka@13.127.0.139'
 
                     
-                    def ansibleRepo = 'https://github.com/mansivaish22/edurekaproject'
+                    def ansibleRepo = 'https://github.com/mansivaish22/edurekaproject.git'
 
                     // Clone the Ansible playbook repository
                     sh "git clone ${ansibleRepo} /tmp/ansible-repo"
@@ -48,7 +48,7 @@ pipeline {
             steps {
                 script {
                     
-                    def gitRepo = 'https://github.com/mansivaish22/edurekaproject'
+                    def gitRepo = 'https://github.com/mansivaish22/edurekaproject.git'
 
                     // Clone the Git repository
                     sh "git clone ${gitRepo} /tmp/php-web-app"
